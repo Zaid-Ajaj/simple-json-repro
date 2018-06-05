@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server",
+    "test": "node ./node_modules/qunitjs/bin/qunit public/bundle.js"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0-beta.48",
+    "@babel/polyfill": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.48",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.0-beta",
+    "fable-loader": "^2.0.0-alpha-002",
+    "fable-utils": "^1.0.6",
+    "loglevel": "^1.6.0",
+    "qunitjs": "^2.4.1",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^3.0.1",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
